@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import {searchUser} from "../features/redux/slices/userDetailSlice"
 import {NavLink} from "react-router-dom"
 
-function Navbar() {
+function Navbar()  {
 
     const allUsers = useSelector((state) => state.app.users)
     const dispatch = useDispatch()
